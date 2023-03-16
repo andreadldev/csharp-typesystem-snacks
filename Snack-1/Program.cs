@@ -9,7 +9,11 @@ if (num1 > num2)
 {
     Console.WriteLine($"Il numero più grande è {num1}");
 }
-else
+else if (num1 < num2)
 {
     Console.WriteLine($"Il numero più grande è {num2}");
+}
+else
+{
+    Console.WriteLine("I numeri hanno lo stesso valore");
 }
