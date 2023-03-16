@@ -4,7 +4,7 @@ int sum = 0;
 
 for (int i = 0; i < numbers.Length; i++)
 {
-    Console.WriteLine($"Inserisci un numero (ciclo {i})");
+    Console.WriteLine($"Inserisci un numero (ciclo {i+1})");
     numbers[i] = Convert.ToInt32(Console.ReadLine());
     sum += numbers[i];
 }
