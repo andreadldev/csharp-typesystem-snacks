@@ -1,5 +1,4 @@
 ﻿//Snack 9
-
 var numbers = new List<int>();
 int sum = 0;
 int digit = 0;
